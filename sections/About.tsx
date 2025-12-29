@@ -20,8 +20,8 @@ const About: React.FC = () => {
             />
           </motion.div>
           <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-[#0f172a] p-6 rounded-2xl border border-white/10 shadow-xl hidden md:block">
-            <div className="text-4xl font-bold text-cyan-400 mb-2">5+</div>
-            <div className="text-sm text-slate-400 leading-tight">Years of professional experience in digital engineering</div>
+            <div className="text-4xl font-bold text-cyan-400 mb-2">1+</div>
+            <div className="text-sm text-slate-400 leading-tight">Years of professional experience in  <span className="text-[#1ecdec]">full stack & WardPress Development</span> </div>
           </div>
         </div>
 
@@ -31,7 +31,7 @@ const About: React.FC = () => {
             <span className="text-cyan-400">Experiences</span> with Purpose
           </h2>
           <p className="text-lg text-slate-400 mb-8 leading-relaxed">
-            I am a software engineer based in London, specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at the intersection of technology and creativity.
+            I am a software engineer based in Bangladesh, specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at the intersection of technology and creativity.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

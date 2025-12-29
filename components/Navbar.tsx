@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
           animate={{ opacity: 1, x: 0 }}
           className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent"
         >
-          ALEX R.
+          Fahad
         </motion.a>
 
         {/* Desktop Nav */}

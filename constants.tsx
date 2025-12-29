@@ -12,13 +12,14 @@ import {
   Linkedin, 
   Mail 
 } from 'lucide-react';
+import { FaWordpress } from "react-icons/fa";
 import { Service, Project, Skill, Experience } from './types';
 
 export const ROLES = [
-  "Fullstack Developer",
-  "UI/UX Motion Designer",
-  "Creative Engineer",
-  "Product Strategist"
+  "Frontend Developer",
+  "UI/UX Designer",
+  "Backend Developer",
+  "WordPress Developer"
 ];
 
 export const NAV_LINKS = [
@@ -47,11 +48,11 @@ export const SERVICES: Service[] = [
     description: 'Adding life to your products with smooth, premium animations and transitions.',
     icon: <Layout className="w-8 h-8 text-pink-400" />,
   },
-  {
-    title: 'Technical Consulting',
-    description: 'Helping startups choose the right stack and scale their engineering teams effectively.',
-    icon: <Cpu className="w-8 h-8 text-emerald-400" />,
-  },
+ {
+  title: 'WordPress Development',
+  description: 'Building custom WordPress websites, themes, and plugins with a focus on performance, security, and scalability.',
+  icon: <FaWordpress className="w-8 h-8 text-emerald-400" />,
+}
 ];
 
 export const PROJECTS: Project[] = [
@@ -59,7 +60,7 @@ export const PROJECTS: Project[] = [
     id: 1,
     title: 'Lumina Dashboard',
     category: 'Saas Platform',
-    image: 'https://picsum.photos/seed/lumina/600/400',
+    image: '',
     link: '#',
   },
   {
@@ -78,42 +79,60 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
-    title: 'Aura Wallet',
-    category: 'Fintech',
+    title: 'GreenNest',
+    category: 'Home & Garden',
     image: 'https://picsum.photos/seed/aura/600/400',
     link: '#',
   },
 ];
 
 export const SKILLS: Skill[] = [
+  
+  { name: 'WordPress', level: 90, icon: 'https://cdn.simpleicons.org/wordpress' },
   { name: 'React / Next.js', level: 95, icon: 'https://cdn.simpleicons.org/react' },
-  { name: 'TypeScript', level: 90, icon: 'https://cdn.simpleicons.org/typescript' },
   { name: 'Tailwind CSS', level: 95, icon: 'https://cdn.simpleicons.org/tailwindcss' },
   { name: 'Framer Motion', level: 85, icon: 'https://cdn.simpleicons.org/framer' },
   { name: 'Node.js', level: 80, icon: 'https://cdn.simpleicons.org/node.js' },
-  { name: 'PostgreSQL', level: 75, icon: 'https://cdn.simpleicons.org/postgresql' },
+   { name: 'Mongodb', level: 90, icon: 'https://cdn.simpleicons.org/mongodb' },
+ 
 ];
 
 export const EXPERIENCES: Experience[] = [
   {
-    company: 'TechFlow Systems',
-    role: 'Senior Frontend Engineer',
-    period: '2022 - Present',
-    description: 'Leading the development of a next-generation data visualization platform using React and D3.',
+    company: 'Exprovia', // এখানে তোমার কোম্পানি নাম লিখবে
+    role: 'Full Stack Web Developer',
+    period: '2026 – Present',
+    description: `
+      - Building responsive and dynamic web applications using React, Next.js, TailwindCSS, and DaisyUI.
+      - Developing REST APIs and backend services with Node.js & Express.js.
+      - Designing and managing MongoDB databases for scalable applications.
+      - Implementing authentication, CRUD features, and reusable UI components.
+      - Delivering end-to-end full stack projects from frontend to backend.
+      - Using Git & GitHub for version control and team collaboration.
+      - Optimizing code for performance, scalability, and maintainability.
+    `,
   },
   {
-    company: 'Creative Pixel Agency',
-    role: 'UI/UX Developer',
-    period: '2020 - 2022',
-    description: 'Crafted award-winning marketing sites and interactive prototypes for international clients.',
+    company: 'Programming Hero',
+    role: 'Web Development Trainee',
+    period: 'June 2025 – December 2025',
+    description: `
+      - HTML, CSS, JavaScript foundation.
+      - Responsive design implementation.
+    `,
   },
   {
-    company: 'Spark Startup Lab',
-    role: 'Junior Web Developer',
-    period: '2018 - 2020',
-    description: 'Built and maintained internal tools and customer-facing dashboards for early-stage startups.',
+    company: 'Coders Foundation',
+    role: 'Advance WordPress Development Trainee',
+    period: '2024 – 2024',
+    description: `
+      - Advanced WordPress customization.
+      - Theme & plugin development fundamentals.
+      - WooCommerce setup and optimization.
+    `,
   },
 ];
+
 
 export const SOCIALS = [
   { icon: <Github className="w-6 h-6" />, href: '#', label: 'GitHub' },

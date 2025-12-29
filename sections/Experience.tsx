@@ -67,11 +67,11 @@ const Experience: React.FC = () => {
 
           <div className="mt-8 grid grid-cols-2 gap-4">
             <div className="p-8 bg-[#0f172a] rounded-3xl border border-white/5 text-center">
-              <div className="text-3xl font-bold text-white mb-1">120+</div>
+              <div className="text-3xl font-bold text-white mb-1">30+</div>
               <div className="text-sm text-slate-500 uppercase tracking-widest font-bold">Projects Done</div>
             </div>
             <div className="p-8 bg-[#0f172a] rounded-3xl border border-white/5 text-center">
-              <div className="text-3xl font-bold text-white mb-1">45+</div>
+              <div className="text-3xl font-bold text-white mb-1">4+</div>
               <div className="text-sm text-slate-500 uppercase tracking-widest font-bold">Happy Clients</div>
             </div>
           </div>
