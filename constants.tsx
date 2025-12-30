@@ -58,31 +58,31 @@ export const SERVICES: Service[] = [
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: 'Lumina Dashboard',
-    category: 'Saas Platform',
-    image: '',
-    link: '#',
+    title: 'Care.IO',
+    category: 'Healthcare Technology',
+    image: 'https://res.cloudinary.com/dsga4gyw9/image/upload/v1767071803/Care-IO-Trusted-Family-Care-Services-12-30-2025_11_11_AM_zewqln.png',
+    link: ' https://inquisitive-croissant-2a4d5f.netlify.app/',
   },
   {
     id: 2,
-    title: 'Nexus AI',
-    category: 'Artificial Intelligence',
-    image: 'https://picsum.photos/seed/nexus/600/400',
-    link: '#',
+    title: 'Bill Management',
+    category: 'Bill Payment & Utility Management',
+    image: 'https://res.cloudinary.com/dsga4gyw9/image/upload/v1767072717/Home-Utility-Bill-System-12-30-2025_11_31_AM_c5uj4a.png',
+    link: 'https://heartfelt-seahorse-19e34d.netlify.app/',
   },
   {
     id: 3,
-    title: 'Echo Commerce',
-    category: 'E-commerce',
-    image: 'https://picsum.photos/seed/echo/600/400',
-    link: '#',
+    title: 'App Development',
+    category: 'App Development Agency Website',
+    image: 'https://res.cloudinary.com/dsga4gyw9/image/upload/v1767071796/hero-app-12-29-2025_08_10_PM_eqfiea.png',
+    link: 'https://genuine-raindrop-132830.netlify.app/',
   },
   {
     id: 4,
     title: 'GreenNest',
     category: 'Home & Garden',
-    image: 'https://picsum.photos/seed/aura/600/400',
-    link: '#',
+    image: 'https://res.cloudinary.com/dsga4gyw9/image/upload/v1767071806/green-nest-12-29-2025_08_10_PM_lxdzfe.png',
+    link: 'https://rad-macaron-4adb07.netlify.app/',
   },
 ];
 
@@ -135,8 +135,8 @@ export const EXPERIENCES: Experience[] = [
 
 
 export const SOCIALS = [
-  { icon: <Github className="w-6 h-6" />, href: '#', label: 'GitHub' },
-  { icon: <Linkedin className="w-6 h-6" />, href: '#', label: 'LinkedIn' },
-  { icon: <Twitter className="w-6 h-6" />, href: '#', label: 'Twitter' },
-  { icon: <Mail className="w-6 h-6" />, href: '#', label: 'Email' },
+  { icon: <Github className="w-6 h-6" />, href: 'https://github.com/Sefat-Ullah-Fahad', label: 'GitHub' },
+  { icon: <Linkedin className="w-6 h-6" />, href: 'https://www.linkedin.com/in/md-fahad-3a0910396/', label: 'LinkedIn' },
+  
+ 
 ];
